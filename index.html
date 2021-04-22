@@ -11,14 +11,23 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/content.css">
     <title>Your Store</title>
+
 </head>
 
 <body>
     <div w3-include-html="header.html"></div>
 
     <!-- mobile first design -->
-    <main style="margin: 0; z-index: 1;">
-        <img src="img/shoe1.jpg" alt="" class="img-fluid css-img-fluid">
+    <main style="margin: 0;">
+        <div class="container fixed-top" style="background-color: #fff; margin-top: 150px; z-index: 0;">
+            <form action="">
+                <input type="search" class="form-control css-input " id="exampleInputEmail1 " placeholder="Search">
+            </form>
+        </div>
+        <!-- <div class="container-fluid" style="margin-top: 100px;width: 100%;">
+            <img src="img/shoe1.jpg" alt="" class="img-fluid css-img-fluid" style="width: 100%;">
+            <h1 class="text-white"></h1> -->
+        </div>
     </main>
 
     <!-- end of mobile first design -->
